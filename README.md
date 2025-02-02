@@ -1,9 +1,9 @@
 # 💳 Credit Card Fraud Detection
 
-## 🚀 Overview
+## Overview
 This project uses **Machine Learning** to detect fraudulent credit card transactions based on key features extracted from transaction data. The model is integrated with a **Streamlit web application** for easy user interaction.
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── dataset/                   # Contains the dataset
 │   ├── creditcard.csv         # Credit card transactions dataset
@@ -18,7 +18,7 @@ This project uses **Machine Learning** to detect fraudulent credit card transact
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 - **Source**: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - **Size**: 284,807 transactions
 - **Fraud Cases**: 492 (Highly imbalanced dataset)
@@ -30,7 +30,7 @@ This project uses **Machine Learning** to detect fraudulent credit card transact
 
 ---
 
-## 📌 Installation
+## Installation
 1️⃣ **Clone this repository**
 ```bash
 git clone https://github.com/yourusername/credit-card-fraud-detection.git
@@ -51,7 +51,7 @@ streamlit run app.py
 
 ---
 
-## 🏗️ Model Training
+## Model Training
 To train the fraud detection model, run:
 ```bash
 python train_model.py
@@ -63,21 +63,21 @@ This script:
 
 ---
 
-## 🎨 Streamlit Web App
+## Streamlit Web App
 The **Streamlit web application** allows users to **enter transaction details** and check for fraud.
 
-### 🌟 **Features**
+### **Features**
 ✅ User-friendly interface
 ✅ Accepts key transaction details (amount, risk factors, account trust, etc.)
 ✅ Uses **KNN Imputer** to fill missing values
 ✅ Predicts fraud in real-time using trained ML model
 
-### 🖥️ **Run Locally**
+### **Run Locally**
 ```bash
 streamlit run app.py
 ```
 
-### 🌐 **Deploy on Streamlit Cloud**
+### **Deploy on Streamlit Cloud**
 1️⃣ Push your repository to GitHub
 2️⃣ Go to [Streamlit Cloud](https://share.streamlit.io/)
 3️⃣ Deploy by connecting your GitHub repo
@@ -111,7 +111,7 @@ Actual  -----------------
 
 ---
 
-## 🤝 Contributing
+## Contributing
 1️⃣ Fork the repository 📌
 2️⃣ Create a feature branch (`git checkout -b feature-branch`)
 3️⃣ Commit changes (`git commit -m 'Added a new feature'`)
@@ -120,16 +120,11 @@ Actual  -----------------
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
 ---
 
 ## 📞 Contact
 For questions or collaboration, reach out via:
-- 📧 Email: your.email@example.com
-- 🔗 LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-
-🔥 **Happy Coding!** 🚀
+- 📧 Email: contact.dharyavardhan.com
+- 🔗 LinkedIn: [Dharya](www.linkedin.com/in/dharyavardhan)
 
 
