@@ -68,8 +68,11 @@ The **Streamlit web application** allows users to **enter transaction details** 
 
 ### **Features**
 ✅ User-friendly interface
+
 ✅ Accepts key transaction details (amount, risk factors, account trust, etc.)
+
 ✅ Uses **KNN Imputer** to fill missing values
+
 ✅ Predicts fraud in real-time using trained ML model
 
 ### **Run Locally**
@@ -84,7 +87,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Confusion Matrix & Model Performance
+## Confusion Matrix & Model Performance
 The model achieves **high accuracy** while minimizing false negatives (missed fraud cases).
 
 ```
@@ -103,9 +106,9 @@ Actual  -----------------
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Python** (pandas, numpy, scikit-learn, joblib)
-- **Machine Learning** (Logistic Regression, KNN Imputer)
+- **Machine Learning** (RandomForestClassifier, KNN Imputer)
 - **Streamlit** (For UI & deployment)
 - **Jupyter Notebook** (For data exploration)
 
