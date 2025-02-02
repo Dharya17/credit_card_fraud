@@ -116,9 +116,13 @@ Actual  -----------------
 
 ## Contributing
 1️⃣ Fork the repository 📌
+
 2️⃣ Create a feature branch (`git checkout -b feature-branch`)
+
 3️⃣ Commit changes (`git commit -m 'Added a new feature'`)
+
 4️⃣ Push to GitHub (`git push origin feature-branch`)
+
 5️⃣ Open a Pull Request 🚀
 
 ---
